@@ -2,3 +2,11 @@
 
 
 ## Alrik was here ( • - • ｡)
+
+HTML
+
+-Andreas
+
+CSS
+
+-Patrik
