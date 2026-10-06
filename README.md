@@ -3,10 +3,14 @@
 
 ## Alrik was here ( • - • ｡)
 
-HTML
+Vandringssida
 
+Titel: Natursteg
+
+Ansvarsområden:
+
+HTML
 -Andreas
 
 CSS
-
 -Patrik
