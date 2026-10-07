@@ -25,6 +25,11 @@ p {
     line-height: 2rem;
 }
 
+h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
 /* ======= */
 
 body {
@@ -128,12 +133,10 @@ main {
 
     border: 1px solid lightgray;
     border-radius: 30px;
-
 }
 
 .startsida h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
+    color: white;
 }
 
 .titel-nyfärg {
@@ -160,6 +163,41 @@ main {
 
     border: 1px solid var(--green-color);
     border-radius: 30px;
+}
+
+/* === OM === */
+
+.om {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    height: 100vh;
+
+    padding: var(--sid-padding-mobil);
+
+    background-color: var(--bg1-color);
+}
+
+/* === BILDER === */
+
+.bilder-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100vh;
+
+    padding: var(--sid-padding-mobil);
+
+    background-color: var(--bg2-color);
+}
+
+.bilder-text .add-background {
+    background-color: var(--green-color);
+    
+    padding: 0.7rem 1.5rem;
+
+    font-weight: 600;
 }
 
 /* Footer styles */
