@@ -57,6 +57,11 @@ nav {
     text-decoration: none;
 }
 
+.navbar-brand:hover {
+    color: #193c2b;
+    text-decoration: none;
+}
+
 .small-text {
     font-size: 0.7rem;
     margin-top: -5px;
