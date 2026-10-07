@@ -7,7 +7,7 @@ Vandringssida
 
 Titel: Natursteg
 
-Ansvarsområden:
+Huvudansvarsområden (hjälper varandra där det behövs):
 
 HTML
 -Andreas
