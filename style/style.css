@@ -1,7 +1,31 @@
-html,
-body {
-    height: 100%;
+/* JAG BÖRJAR MED ATT UTGÅ FRÅN MOBILSKÄRM NÄR JAG JOBBAR I CSS ihopne SE 375 x 667 px */
+
+/* NOLLSTÄLLER WEBLÄSERENS STANDARD MARGINALER OCH SÄTTER ALL BOX-SIZING PÅ BORDEBOX, FÖR ATT FÅ MER KONTROLL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* HÄMTAR FÄRGKOD FRÅN SKISSEN OCH SPARAR I VARIABLER */
+
+:root {
+    --green-color: #365d46;
+    --bg1-color: #f7f3e9;
+    --bg2-color: #e7e2d4;
+
+    --sid-padding-mobil: 4rem 1.1rem;
+}
+
+/* STANDARD FÖR P TAGGAR */
+
+p {
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+
+/* ======= */
 
 body {
     min-height: 100vh;
@@ -9,20 +33,23 @@ body {
     flex-direction: column;
 }
 
-main { 
-    flex: 1; 
+main {
+    flex: 1;
 }
 
 /* Navbar Styles*/
-nav {
-    background-color: #eeece1;
+.navbar {
+    height: 5rem;
+    background-color: var(
+        --bg1-color
+    ); /* background color funkar ej, tror det ligger från dina tidigare färginställningar */
 }
 
 .nav-link {
     color: #5d645e;
     font-size: 14px;
     font-weight: bold;
-    font-family: 'DM sans', sans-serif;
+    font-family: "DM sans", sans-serif;
 }
 
 .nav-link.active {
@@ -67,6 +94,74 @@ nav {
     margin-top: -5px;
 }
 
+/* === STARTSIDA === */
+
+.startsida {
+    /* Lägger bakgrundsbilden här för att den inte ska följa med när man scorllar neråt */
+    background-image: 
+    /* Blandar bild med gradient */
+        linear-gradient(to right, rgba(54, 93, 70, 0.8), rgba(0, 0, 0, 0.3)),
+        url(/Img/photo-1787951611386-b042ec1c6b13.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+    /* postition relative som ankare till knappen "add-background" */
+    position: relative;
+
+    /* FYLLER UT HELA FÖRSTA SIDAN (- HEADERNS HEIGHT) */
+    height: calc(100vh - 5rem);
+
+    padding: var(--sid-padding-mobil);
+}
+
+.startsida h6 {
+    margin-bottom: 1.5rem;
+    padding: 0.3rem 1.5rem;
+
+    color: rgba(255, 255, 255, 0.856);
+
+    background-color: rgba(255, 255, 255, 0.2);
+    /* frostat glas */
+    backdrop-filter: blur(3px);
+
+    border: 1px solid lightgray;
+    border-radius: 30px;
+
+}
+
+.startsida h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.titel-nyfärg {
+    color: #d8b66b;
+}
+
+.startsida p {
+    margin-top: 1.5rem;
+
+    font-weight: 550;
+    color: white;
+}
+
+.startsida-text .add-background {
+    position: absolute;
+
+    bottom: 4rem;
+    padding: 0.7rem 1.5rem;
+
+    font-weight: 600;
+    color: var(--green-color);
+
+    background-color: var(--bg1-color);
+
+    border: 1px solid var(--green-color);
+    border-radius: 30px;
+}
+
 /* Footer styles */
 footer {
     margin-top: auto;
@@ -79,7 +174,7 @@ footer {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
-    font-family: 'DM serif Display', serif;
+    font-family: "DM serif Display", serif;
 }
 
 .footer-small-title {
@@ -87,7 +182,7 @@ footer {
     color: #d8b66b;
     font-weight: bold;
     margin-bottom: 10px;
-    font-family: 'DM sans', sans-serif;
+    font-family: "DM sans", sans-serif;
 }
 
 .footer-small-title {
@@ -104,12 +199,10 @@ footer {
 
 .footer-paragraph {
     font-size: 16px;
-    font-family: 'DM sans', sans-serif;
+    font-family: "DM sans", sans-serif;
     color: #cbd6ca;
 }
 
 /* Mobile Phone Style*/
 @media (max-width: 768px) {
-
 }
-
