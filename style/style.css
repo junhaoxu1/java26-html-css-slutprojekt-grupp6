@@ -38,6 +38,11 @@ nav {
     padding: 5px 10px;
 }
 
+.add-background:hover {
+    background-color: #193c2b;
+    color: #eeece1;
+}
+
 .brand-wrapper {
     display: flex;
     flex-direction: column;
@@ -45,7 +50,7 @@ nav {
 }
 
 .navbar-brand {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     color: #193c2b;
     text-decoration: none;
@@ -89,6 +94,12 @@ footer {
 
 .footer-small-title + p + p {
     margin-top: 0;
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    font-family: 'DM sans', sans-serif;
+    color: #cbd6ca;
 }
 
 /* Mobile Phone Style*/
