@@ -13,10 +13,7 @@ main {
     flex: 1; 
 }
 
-footer {
-    margin-top: auto;
-}
-
+/* Navbar Styles*/
 nav {
     background-color: #eeece1;
 }
@@ -25,7 +22,7 @@ nav {
     color: #5d645e;
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'DM sans', sans-serif;
 }
 
 .nav-link.active {
@@ -59,12 +56,42 @@ nav {
     margin-top: -5px;
 }
 
-
-@media (min-width: 1200px) {
-
+/* Footer styles */
+footer {
+    margin-top: auto;
+    background-color: #193c2b;
+    color: #eeece1;
+    padding: 20px 0;
 }
 
+.footer-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'DM serif Display', serif;
+}
 
+.footer-small-title {
+    font-size: 12px;
+    color: #d8b66b;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'DM sans', sans-serif;
+}
+
+.footer-small-title {
+    margin-bottom: 10px;
+}
+
+.footer-small-title + p {
+    margin-bottom: 5px;
+}
+
+.footer-small-title + p + p {
+    margin-top: 0;
+}
+
+/* Mobile Phone Style*/
 @media (max-width: 768px) {
 
 }
