@@ -17,6 +17,48 @@ footer {
     margin-top: auto;
 }
 
+nav {
+    background-color: #eeece1;
+}
+
+.nav-link {
+    color: #5d645e;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link.active {
+    color: #193c2b;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.add-background {
+    background-color: #193c2b;
+    color: #eeece1;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.brand-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    color: #193c2b;
+    text-decoration: none;
+}
+
+.small-text {
+    font-size: 0.7rem;
+    margin-top: -5px;
+}
+
 
 @media (min-width: 1200px) {
 
