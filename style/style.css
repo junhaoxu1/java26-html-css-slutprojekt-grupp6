@@ -64,11 +64,11 @@ main {
 }
 
 /* Navbar Styles*/
+
 .navbar {
-    height: 5rem;
     background-color: var(--bg1-color) !important;
     /* background color funkar ej, tror det ligger från dina tidigare färginställningar */
-}
+} 
 
 .brand-wrapper {
     display: flex;
