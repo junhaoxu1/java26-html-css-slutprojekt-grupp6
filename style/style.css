@@ -18,7 +18,7 @@
     --sid-padding-mobil: 4rem 1.1rem;
 }
 
-/* STANDARD FÖR P TAGGAR */
+/* STANDARD FÖR TEXT TAGGAR */
 
 p {
     letter-spacing: 0.1rem;
@@ -28,6 +28,10 @@ p {
 h1 {
     font-size: 3.5rem;
     font-weight: 600;
+}
+
+h6 {
+    color: var(--green-color);
 }
 
 /* ======= */
@@ -194,10 +198,39 @@ main {
 
 .bilder-text .add-background {
     background-color: var(--green-color);
-    
+
     padding: 0.7rem 1.5rem;
 
     font-weight: 600;
+}
+
+/* VÄNNER */
+
+.vänner {
+    min-height: 30vh;
+
+    background-color: var(--bg1-color);
+
+    padding: var(--sid-padding-mobil);
+}
+
+.vänner h6 {
+    text-align: center;
+    color: #5f5d57;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    margin-top: 1.5rem;
+}
+
+.partners div {
+    font-size: 1.5rem;
+    color: #5f5d57;
 }
 
 /* Footer styles */
