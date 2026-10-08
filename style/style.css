@@ -38,7 +38,7 @@ h6 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7rem;
     font-weight: 400;
-    
+
     margin-bottom: 1.5rem;
 
     color: var(--green-color);
@@ -180,9 +180,9 @@ main {
 
     bottom: 4rem;
     padding: 0.7rem 1.5rem;
-    
+
     font-family: Arial, Helvetica, sans-serif;
-    
+
     font-weight: 600;
     color: var(--green-color);
 
@@ -212,22 +212,43 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    height: 100vh;
+    min-height: 100vh;
 
     padding: var(--sid-padding-mobil);
 
     background-color: var(--bg2-color);
 }
 
-.bilder-text .add-background {
-    background-color: var(--green-color);
+.bilder-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2.5rem;
+}
 
-    padding: 0.7rem 1.5rem;
+.bild img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
 
-    font-weight: 600;
+   border-radius: 30px;
 }
 
 /* VÄNNER */
+
+.bilder-text .add-background {
+    align-self: flex-start;
+
+    margin-top: 1.5rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--bg1-color);
+
+    background-color: var(--green-color);
+
+    padding: 0.7rem 1.5rem;
+    border-radius: 30px;
+}
 
 .vänner {
     min-height: 30vh;
@@ -257,18 +278,33 @@ main {
 }
 
 /* Footer styles */
+
+/* Tar bort bootstrap margin */
+.mt-5 {
+margin-top: 0 !important;     
+}
+
 footer {
     margin-top: auto;
-    background-color: #193c2b;
+    background-color: var(--green-color);
     color: #eeece1;
     padding: 20px 0;
 }
 
 .footer-title {
-    font-size: 48px;
+    color: var(--bg2-color);
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 10px;
-    font-family: "DM serif Display", serif;
+    margin-bottom: 1rem;
+    font-family: "Arial, Helvetica, sans-serif";
+    
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    font-family: "Arial, Helvetica, sans-serif";
+    color: var(--bg2-color);
+    margin-bottom: 1.8rem;
 }
 
 .footer-small-title {
@@ -276,26 +312,23 @@ footer {
     color: #d8b66b;
     font-weight: bold;
     margin-bottom: 10px;
-    font-family: "DM sans", sans-serif;
+    font-family: "Arial, Helvetica, sans-serif";
 }
 
 .footer-small-title {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    color: #d8b66b;
 }
 
 .footer-small-title + p {
-    margin-bottom: 5px;
+    margin-bottom: 0.2rem;
 }
 
 .footer-small-title + p + p {
     margin-top: 0;
 }
 
-.footer-paragraph {
-    font-size: 16px;
-    font-family: "DM sans", sans-serif;
-    color: #cbd6ca;
-}
+
 
 /* Mobile Phone Style*/
 @media (max-width: 768px) {
