@@ -43,9 +43,9 @@ main {
 }
 
 /* Navbar Styles*/
-.navbar {
+.my-navbar {
     height: 5rem;
-    background-color: var(
+        background-color: var(
         --bg1-color
     ); /* background color funkar ej, tror det ligger från dina tidigare färginställningar */
 }
@@ -106,7 +106,7 @@ main {
     background-image: 
     /* Blandar bild med gradient */
         linear-gradient(to right, rgba(54, 93, 70, 0.8), rgba(0, 0, 0, 0.3)),
-        url(/Img/photo-1787951611386-b042ec1c6b13.jpg);
+        url(../Img/photo-1787951611386-b042ec1c6b13.jpg);
 
     background-size: cover;
     background-position: center;
