@@ -531,8 +531,7 @@ td button,
     text-decoration: none;
 }
 
-.paket-bild img{
-
+.paket-bild img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -602,9 +601,25 @@ td button,
 }
 
 .guide-kort {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 330px;
+}
+
+.guide-porträtt {
+    position: absolute;
+    top: 5rem;
+}
+
+.guide-porträtt img{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    object-fit: cover;
+
+    border-radius: 30px;
 }
 
 .guide-kort h3 {
