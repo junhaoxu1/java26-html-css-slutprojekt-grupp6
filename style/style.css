@@ -227,7 +227,7 @@ main {
     gap: 0.5rem;
 }
 
-HEAD .bild img {
+.bild img {
     width: 100%;
     height: auto;
     object-fit: cover;
