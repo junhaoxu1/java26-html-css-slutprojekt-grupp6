@@ -47,47 +47,62 @@
             </nav>
         </header>
         <main>
-            <section>
-                <h2>VÅRA GUIDER</h2>
-                <h3>Möt teamet</h3>
-                <article>
-                    <div>
-                        <div>AL</div>
+            <section class="kontakt-banner">
+                <h2 class="kontakt-banner-rubrik">OM NATURSTEG</h2>
+                <div class="kontakt-banner-text">
+                    <h3>Människor som hittar ut</h3>
+                    <p>
+                        Vi är guider, naturälskare och nyfikna medmänniskor. 
+                        Vår uppgift är att skapa trygga rum där både samtal och tystnad får plats.
+                    </p>
+                </div>
+            </section>
+            <section class="guider">
+                    <h2>-VÅRA GUIDER</h2>
+                    <h3>Möt teamet</h3>
+                <article class="container-guide-kort">
+                    <div class="guide-kort">
+                        <div id="initialer-al">AL</div>
                         <h4>Astrid Lind</h4>
                         <p>Guide i medveten närvaro</p>
                     </div>
-                    <div>
-                        <div>ME</div>
+                    <div class="guide-kort">
+                        <div id="initialer-me">ME</div>
                         <h4>Mira Ek</h4>
                         <p>Expert på vilda växter</p>
                     </div>
-                    <div>
-                        <div>OB</div>
+                    <div class="guide-kort">
+                        <div id="initialer-ob">OB</div>
                         <h4>Oskar Berg</h4>
                         <p>Vildmarksguide</p>
                     </div>
-                    <div>
-                        <div>EH</div>
+                    <div class="guide-kort">
+                        <div id="initialer-eh">EH</div>
                         <h4>Elias Holm</h4>
                         <p>Naturvägledare</p>
                     </div>
                 </article>
             </section>
-            <section>
+            <section class="kontakt-section">
                 <h2>KONTAKT</h2>
                 <h3>Vad längtar du ut till?</h3>
                 <p>Berätta lite om dig själv och vad du söker, så hjälper vi dig hitta en vandring som känns rätt.</p>
-                <form action="#" method="post">
-                    <label for="namn">Namn:</label>
-                    <input type="text" id="namn" name="namn">
-
-                    <label for="email">E-post:</label>
-                    <input type="email" id="email" name="email">
-
-                    <label for="meddelande">Meddelande:</label>
-                    <textarea id="meddelande" name="meddelande"></textarea>
-
-                    <button type="submit">Skicka meddelande</button>
+                <form class="kontakta-oss" action="#" method="post">
+                    <div class="formular-rad">
+                        <div class="formular-grupp">
+                            <label class="formular-label" for="namn">Namn</label>
+                            <input type="text" id="namn" name="namn" placeholder="Ditt namn">
+                        </div>
+                        <div class="formular-grupp">
+                            <label class="formular-label" for="email">E-post</label>
+                            <input type="email" id="email" name="email" placeholder="du@exempel.se">
+                        </div>
+                    </div>
+                    <div class="formular-grupp">
+                        <label class="formular-label" for="meddelande">Meddelande</label>
+                        <textarea id="meddelande" name="meddelande" placeholder="Berätta vilket äventyr du letar efter"></textarea>
+                    </div>
+                    <button type="submit">Skicka meddelande →</button>
                 </form>
             </section>
         </main>
