@@ -16,6 +16,7 @@
     --green-color: #365d46;
     --bg1-color: #f7f3e9;
     --bg2-color: #e7e2d4;
+    --bg3-color: #193c2b;
 
     --sid-padding-mobil: 4rem 1.1rem;
 }
@@ -328,8 +329,203 @@ footer {
     margin-top: 0;
 }
 
+/* Om & Kontakt */
+.kontakt-banner {
+    display: flex;
+    flex-direction: column;
 
+    padding: var(--sid-padding-mobil);
 
-/* Mobile Phone Style*/
-@media (max-width: 768px) {
+    background-color: var(--bg3-color);
+}
+
+.kontakt-banner-rubrik {
+    color: #52735d;
+    font-size: 12px;
+    font-family: "DM sans", sans-serif;
+    margin: 0 0 14px 0;
+    letter-spacing: 0.2rem;
+}
+
+.kontakt-banner-text h3 {
+    color: #f7f3e9;
+    font-size: 60px;
+    font-family: "DM Serif Display", serif;
+}
+
+.kontakt-banner-text p {
+    color: #cbd6ca;
+    font-size: 20px;
+    font-family: "DM sans", sans-serif;
+    line-height: 1.5rem;
+}
+
+.guider {
+    display: flex;
+    flex-direction: column;
+
+    padding: var(--sid-padding-mobil);
+
+    background-color: var(--bg1-color);
+}
+
+.guider h2 {
+    color: #365d46;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.guider h3 {
+    color: #193c2b;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 20px;
+}
+
+.container-guide-kort {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.guide-kort {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+}
+
+.guide-kort h4 {
+    color: #193c2b;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    margin-top: 20px;
+}
+
+.guide-kort p {
+    color: #6d756d;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5rem;
+}
+
+#initialer-al, #initialer-me, #initialer-ob, #initialer-eh {
+    width: 330px;
+    height: 400px;
+    border-radius: 24px;
+    color: #284F4DB3;
+    display: flex;
+    align-items: flex-end;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+#initialer-al {
+    background-color: #cbd6ca;
+}
+
+#initialer-me {
+    background-color: #dfcfae;
+}
+
+#initialer-ob {
+    background-color: #b9c8b7;
+}
+
+#initialer-eh {
+    background-color: #d8d3c4;
+}
+
+.kontakt-section {
+    display: flex;
+    flex-direction: column;
+
+    padding: var(--sid-padding-mobil);
+
+    background-color: #e4dfd1;
+}
+
+.kontakt-section h2 {
+    color: #365d46;
+    font-size: 12px;
+    font-weight: 550;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.kontakt-section h3 {
+    color: #193c2b;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 16px;
+}
+
+.kontakt-section p {
+    color: #626a62;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5rem;
+}
+
+.kontakta-oss {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f7f3e9;
+    padding: 25px;
+    border-radius: 24px;
+}
+
+.formular-label {
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    color: #39483c;
+}
+
+.formular-rad {
+    display: flex;
+    gap: 20px;
+}
+
+.formular-grupp {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+.kontakta-oss input,
+.kontakta-oss textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+}
+
+.kontakta-oss textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.kontakta-oss button {
+    align-self: flex-start;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    color: #eeece1;
+    border-radius: 24px;
+    padding: 16px 28px;
+    background-color: var(--green-color);
+    border: none;
 }
