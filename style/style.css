@@ -450,7 +450,9 @@ td h2 {
 
 .table td,
 .table th {
+    text-align: left;
     vertical-align: middle;
+    padding: 10px 0 0 15px;
 }
 
 .table td h1,
