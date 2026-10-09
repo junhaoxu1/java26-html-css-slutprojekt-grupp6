@@ -331,6 +331,10 @@ footer {
 
 /* PAKET */
 
+.paket-main {
+    background-color: var(--bg1-color);
+}
+
 .paket {
     display: flex;
     flex-direction: column;
@@ -370,7 +374,7 @@ footer {
 
 .paket-section article {
     width: 800px;
-    margin: 0 0 50px 50px;
+    margin: 0 0 50px 10px;
     overflow-x: auto;
     border-radius: 24px;
     line-height: 0;
@@ -401,6 +405,31 @@ footer {
     background: #555;
 }
 
+.table {
+    width: 800px;
+    margin-left: 5px;
+    border-radius: 24px;
+    overflow: scroll;
+}
+
+.table th {
+    color: #626a62;
+    background-color: #e8e4d8;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5rem;
+    padding: 20px 0 20px 20px;
+    letter-spacing: 0.2rem;
+}
+
+.table td {
+    color: #596159;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5rem;
+    padding: 20px 0 20px 20px;
+}
+
 td h1 {
     color: #193c2b;
     font-size: 24px;
@@ -425,31 +454,6 @@ td h2 {
 .table td h1,
 .table td h2 {
     text-align: left;
-}
-
-.table {
-    width: 800px;
-    margin-left: 5px;
-    border-radius: 24px;
-    overflow: scroll;
-}
-
-.table th {
-    color: #626a62;
-    background-color: #e8e4d8;
-    font-size: 12px;
-    font-family: "DM Sans", sans-serif;
-    line-height: 1.5rem;
-    padding: 20px 0 20px 20px;
-    letter-spacing: 0.2rem;
-}
-
-.table td {
-    color: #596159;
-    font-size: 14px;
-    font-family: "DM Sans", sans-serif;
-    line-height: 1.5rem;
-    padding: 20px 0 20px 20px;
 }
 
 td button {
