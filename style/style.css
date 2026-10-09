@@ -457,6 +457,96 @@ td button,
     text-decoration: none;
 }
 
+/* Enskilda paket-sidor */
+.paket-intro-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: var(--sid-padding-mobil);
+
+    background-color: var(--bg1-color);
+}
+
+.go-paket {
+    text-decoration: none;
+    color: #6c746c;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.paket-intro { 
+    display: flex;
+    flex-direction: column;
+}
+
+.paket-intro h1 {
+    color: #365d46;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.paket-intro h2 {
+    color: #193c2b;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+}
+.paket-intro p {
+    color: #5d655d;
+    font-size: 20px;
+    font-family: "DM sans", sans-serif;
+    line-height: 1.5rem;
+}
+
+.paket-intro-pris {
+    color: #365d46;
+    font-size: 16px;
+    font-family: "DM sans", sans-serif;
+    font-weight: bold;
+}
+
+.paket-content {
+    border-bottom: 1px solid black;
+}
+
+.paket-content h3 {
+    margin-top: 10px;
+    color: #8b7444;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "DM sans", sans-serif;
+}
+
+.paket-content h4 {
+    color: #193c2b;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "DM serif Display", serif;
+}
+
+.paket-content p {
+    color: #626a62;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "DM sans", sans-serif;
+}
+
+.boka-button {
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    color: #f7f3e9;
+    border-radius: 34px;
+    padding: 8px 16px;
+    background-color: var(--green-color);
+    border: none;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
 /* Om & Kontakt */
 .kontakt-banner {
     display: flex;
