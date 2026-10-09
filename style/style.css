@@ -329,6 +329,145 @@ footer {
     margin-top: 0;
 }
 
+/* PAKET */
+
+.paket {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg1-color);
+
+    padding: var(--sid-padding-mobil);
+}
+
+.paket h1 {
+    color: #365d46;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.paket h2 {
+    color: #193c2b;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+}
+
+.paket p {
+    color: #6d756d;
+    font-size: 18px;
+    font-family: "DM sans", sans-serif;
+    line-height: 1.5rem;
+}
+
+.paket-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg1-color);
+    width: 100%;
+}
+
+.paket-section article {
+    width: 800px;
+    margin: 0 0 50px 50px;
+    overflow-x: auto;
+    border-radius: 24px;
+    line-height: 0;
+}
+
+.table {
+    width: 1000px;
+    min-width: 1000px;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.paket-section article::-webkit-scrollbar {
+    height: 12px;
+}
+
+.paket-section article::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+.paket-section article::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.paket-section article::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+td h1 {
+    color: #193c2b;
+    font-size: 24px;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 20px;
+}
+
+td h2 {
+    color: #7c847c;
+    font-size: 12px;
+    font-weight:100;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.table td,
+.table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td h1,
+.table td h2 {
+    text-align: left;
+}
+
+.table {
+    width: 800px;
+    margin-left: 5px;
+    border-radius: 24px;
+    overflow: scroll;
+}
+
+.table th {
+    color: #626a62;
+    background-color: #e8e4d8;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5rem;
+    padding: 20px 0 20px 20px;
+    letter-spacing: 0.2rem;
+}
+
+.table td {
+    color: #596159;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5rem;
+    padding: 20px 0 20px 20px;
+}
+
+td button {
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    color: #f7f3e9;
+    border-radius: 34px;
+    padding: 6px 12px;
+    background-color: var(--green-color);
+    border: none;
+}
+
+td button a {
+    color: #f7f3e9;
+    text-decoration: none;
+}
+
 /* Om & Kontakt */
 .kontakt-banner {
     display: flex;
