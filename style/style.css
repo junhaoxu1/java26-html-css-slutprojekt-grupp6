@@ -331,37 +331,23 @@ footer {
 /* PAKET */
 
 .paket-main {
+    font-family: Arial, Helvetica, sans-serif;
+
     background-color: var(--bg1-color);
 }
 
 .paket {
     display: flex;
     flex-direction: column;
-    background-color: var(--bg1-color);
+    background-color: var(--bg2-color);
 
     padding: var(--sid-padding-mobil);
 }
 
-.paket h1 {
-    color: #365d46;
-    font-size: 12px;
-    font-family: "DM Sans", sans-serif;
-    margin-bottom: 20px;
-    letter-spacing: 0.2rem;
-}
-
-.paket h2 {
-    color: #193c2b;
-    font-size: 60px;
-    font-weight: 700;
-    font-family: "DM Serif Display", serif;
-}
-
 .paket p {
     color: #6d756d;
-    font-size: 18px;
-    font-family: "DM sans", sans-serif;
-    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
 }
 
 .paket-section {
@@ -462,7 +448,7 @@ td button,
 
     padding: var(--sid-padding-mobil);
 
-    background-color: var(--bg1-color);
+    background-color: var(--bg2-color);
 }
 
 .go-paket {
@@ -545,6 +531,15 @@ td button,
     text-decoration: none;
 }
 
+.paket-bild img{
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    border-radius: 30px;
+}
+
 /* Om & Kontakt */
 .kontakt-banner {
     display: flex;
@@ -558,7 +553,7 @@ td button,
 .kontakt-banner-rubrik {
     color: #52735d;
     font-size: 12px;
-    font-family: "DM sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0 0 14px 0;
     letter-spacing: 0.2rem;
 }
@@ -566,14 +561,13 @@ td button,
 .kontakt-banner-text h3 {
     color: #f7f3e9;
     font-size: 60px;
-    font-family: "DM Serif Display", serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .kontakt-banner-text p {
     color: #cbd6ca;
-    font-size: 20px;
-    font-family: "DM sans", sans-serif;
-    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
 }
 
 .guider {
@@ -752,6 +746,8 @@ td button,
 /* ======================== GALLERI ========================= */
 
 .galleri-main {
+    min-height: 100vh;
+
     font-family: Arial, Helvetica, sans-serif;
 
     padding: var(--sid-padding-mobil);
