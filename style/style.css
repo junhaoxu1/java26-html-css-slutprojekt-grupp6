@@ -1190,6 +1190,10 @@ td h2 {
     }
 
     /* Kontakt */
+
+    .kontakt-section {
+        padding-right: 12%;
+    }
     .kontakt-banner-rubrik {
         margin-left: 12%;
     }
