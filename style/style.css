@@ -1375,4 +1375,12 @@ button:focus-visible {
     .boka-button:hover {
         background-color: var(--bg1-color);
     }
+
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+    }
+
+    .navbar-toggler {
+        border-color: var(--bg3-color);
+    }
 }
